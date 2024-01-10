@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	get name(){
-		return this.name
+		return this.name;
 	}
 	set age(age){
 		 this.age=age;
@@ -13,7 +13,7 @@ class Person {
 }
 
 class Student extends Person {
-	Constructor(){
+	Constructor(name){
 		super(name);
 	}
 	
@@ -24,7 +24,7 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
-	Constructor(){
+	Constructor(name){
 		super(name);
 	}
 	teach(){
